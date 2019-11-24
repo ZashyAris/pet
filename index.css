@@ -1,0 +1,44 @@
+body{
+    font-size: 34px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+nav {
+    max-width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    background-color:pink;
+    width:100%; 
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    color:purple;
+}
+#footer{
+    background-color:pink;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    color:purple;
+}
+img{
+    padding: 80px;
+}
